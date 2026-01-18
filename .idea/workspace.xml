@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Pushing local project to GitHub.">
+      <change afterPath="$PROJECT_DIR$/.idea/at_lessons_stepik.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/lesson1_step5_saving_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/lesson6_step10_fill_registration_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/lesson6_step11_failed_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/lesson6_step4_selenium_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/lesson6_step5_search_link_by_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/lesson6_step7_find_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/lesson6_step8_find_by_xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/lesson1_step5_checkboxes_radiobuttons.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mstowsky"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mstowsky/at_lessons_stepik.git",
+    "accountId": "71fea326-58ca-4abe-b19e-f0c1c14528ad"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="38IfrMB47rieiZMA2etXNOSN1cH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Unic_selector.executor": "Run",
+    "Python.lesson1_step5_checkboxes_radiobuttons.executor": "Run",
+    "Python.lesson6_step10_fill_registration_form.executor": "Run",
+    "Python.lesson6_step11_failed_test.executor": "Run",
+    "Python.lesson6_step4_selenium_search.executor": "Run",
+    "Python.lesson6_step5_search_link_by_text.executor": "Run",
+    "Python.lesson6_step7_find_elements.executor": "Run",
+    "Python.lesson6_step8_find_by_xpath.executor": "Run",
+    "Python.t_1_6_d.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/flr/PycharmProjects/at_lessons_stepik/section1/code_review",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section1\code_review" />
+      <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="" />
+      <created>1768492203232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768492203232</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pushing local project to GitHub." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing local project to GitHub." />
+  </component>
+</project>
