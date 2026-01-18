@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Pushing local project to GitHub.">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/lesson1_step7_treasure_hunt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/lesson2_step3_selects1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/lesson2_step6_execute_script.py" afterDir="false" />
+    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Execution of script (scroll to button).">
+      <change afterPath="$PROJECT_DIR$/section2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/lesson2_step8_upload_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/lesson3_step4_allert_confirm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/lesson3_step6_to_new_tab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2/lesson1_step5_checkboxes_radiobuttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/section2/lesson1_step5_checkboxes_radiobuttons.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,9 @@
     "Python.lesson1_step7_treasure_hunt.executor": "Run",
     "Python.lesson2_step3_selects1.executor": "Run",
     "Python.lesson2_step6_execute_script.executor": "Run",
+    "Python.lesson2_step8_upload_file.executor": "Run",
+    "Python.lesson3_step4_allert_confirm.executor": "Run",
+    "Python.lesson3_step6_to_new_tab.executor": "Run",
     "Python.lesson6_step10_fill_registration_form.executor": "Run",
     "Python.lesson6_step11_failed_test.executor": "Run",
     "Python.lesson6_step4_selenium_search.executor": "Run",
@@ -110,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768736748121</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Execution of script (scroll to button).">
+      <option name="closed" value="true" />
+      <created>1768743219227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768743219227</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,17 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pushing local project to GitHub." />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing local project to GitHub." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/section2/lesson2_step6_execute_script.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Execution of script (scroll to button)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Execution of script (scroll to button)." />
   </component>
 </project>
