@@ -1,5 +1,5 @@
 '''
-https://stepik.org/lesson/165493/step/5?unit=140087
+https://stepik.org/lesson/165493/step/7?unit=140087
 '''
 
 from selenium import webdriver
@@ -10,13 +10,13 @@ import math
 def calc(x):
   return str(math.log(abs(12*math.sin(int(x)))))
 
-url = 'https://suninjuly.github.io/math.html'
+url = 'https://suninjuly.github.io/get_attribute.html'
 browser = webdriver.Chrome()
 browser.get(url)
 time.sleep(0.3)
 
-x_element = browser.find_element(By.ID, 'input_value')
-x_value = x_element.text
+x_element = browser.find_element(By.ID, 'treasure')
+x_value = x_element.get_attribute('valuex')
 result = calc(x_value)
 
 text_field = browser.find_element(By.ID, 'answer')

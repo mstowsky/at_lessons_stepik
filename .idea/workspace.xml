@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Pushing local project to GitHub.">
-      <change afterPath="$PROJECT_DIR$/.idea/at_lessons_stepik.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/lesson1_step5_saving_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/lesson6_step10_fill_registration_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/lesson6_step11_failed_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/lesson6_step4_selenium_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/lesson6_step5_search_link_by_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/lesson6_step7_find_elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/lesson6_step8_find_by_xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/lesson1_step5_checkboxes_radiobuttons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/lesson1_step7_treasure_hunt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/lesson2_step3_selects1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/lesson2_step6_execute_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/lesson1_step5_checkboxes_radiobuttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/section2/lesson1_step5_checkboxes_radiobuttons.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +55,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Unic_selector.executor": "Run",
     "Python.lesson1_step5_checkboxes_radiobuttons.executor": "Run",
+    "Python.lesson1_step7_treasure_hunt.executor": "Run",
+    "Python.lesson2_step3_selects1.executor": "Run",
+    "Python.lesson2_step6_execute_script.executor": "Run",
     "Python.lesson6_step10_fill_registration_form.executor": "Run",
     "Python.lesson6_step11_failed_test.executor": "Run",
     "Python.lesson6_step4_selenium_search.executor": "Run",
@@ -77,13 +72,14 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/flr/PycharmProjects/at_lessons_stepik/section1/code_review",
+    "last_opened_file_path": "C:/Users/flr/PycharmProjects/at_lessons_stepik/section2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section2" />
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section1\code_review" />
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section1" />
     </key>
@@ -106,6 +102,15 @@
       <option name="presentableId" value="Default" />
       <updated>1768492203232</updated>
     </task>
+    <task id="LOCAL-00001" summary="Pushing local project to GitHub.">
+      <option name="closed" value="true" />
+      <created>1768736748121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768736748121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,7 +118,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -122,5 +139,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pushing local project to GitHub." />
     <option name="LAST_COMMIT_MESSAGE" value="Pushing local project to GitHub." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/section2/lesson2_step6_execute_script.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
