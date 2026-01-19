@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Section 2 finished.">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Readme added.">
+      <change afterPath="$PROJECT_DIR$/section3/test_abs_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/test_lesson2_step13_unittest_style.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest.executor": "Run",
+    "Python tests.Python tests in test_abs_project.py.executor": "Run",
     "Python.Pr2_step11.executor": "Run",
     "Python.Unic_selector.executor": "Run",
     "Python.lesson1_step5_checkboxes_radiobuttons.executor": "Run",
@@ -71,6 +74,7 @@
     "Python.lesson6_step7_find_elements.executor": "Run",
     "Python.lesson6_step8_find_by_xpath.executor": "Run",
     "Python.t_1_6_d.executor": "Run",
+    "Python.test_abs_project.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -78,13 +82,14 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/flr/PycharmProjects/at_lessons_stepik/section2",
+    "last_opened_file_path": "C:/Users/flr/PycharmProjects/at_lessons_stepik/section3",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section3" />
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section2" />
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section1\code_review" />
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section1" />
@@ -92,6 +97,28 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="at_lessons_stepik" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;section3.test_lesson2_step13_unittest_style.RegistrationTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -148,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768765945062</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Readme added.">
+      <option name="closed" value="true" />
+      <created>1768815277775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768815277775</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +214,7 @@
     <MESSAGE value="Execution of script (scroll to button)." />
     <MESSAGE value="Lesson 3 finished." />
     <MESSAGE value="Section 2 finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 2 finished." />
+    <MESSAGE value="Readme added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme added." />
   </component>
 </project>
