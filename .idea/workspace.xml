@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Lesson 3 finished.">
-      <change afterPath="$PROJECT_DIR$/section2/lesson4_step8_wait_for_100_bucks.py" afterDir="false" />
+    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Section 2 finished.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,20 +21,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mstowsky &lt;dflyerggl@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mstowsky"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mstowsky&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mstowsky/at_lessons_stepik.git",
-    "accountId": "71fea326-58ca-4abe-b19e-f0c1c14528ad"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mstowsky/at_lessons_stepik.git&quot;,
+    &quot;accountId&quot;: &quot;71fea326-58ca-4abe-b19e-f0c1c14528ad&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -49,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Pr2_step11.executor": "Run",
     "Python.Unic_selector.executor": "Run",
     "Python.lesson1_step5_checkboxes_radiobuttons.executor": "Run",
     "Python.lesson1_step7_treasure_hunt.executor": "Run",
@@ -126,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768759513588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson 3 finished.">
+      <option name="closed" value="true" />
+      <created>1768765916985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768765916985</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Section 2 finished.">
+      <option name="closed" value="true" />
+      <created>1768765945062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768765945062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +178,7 @@
     <MESSAGE value="Pushing local project to GitHub." />
     <MESSAGE value="Execution of script (scroll to button)." />
     <MESSAGE value="Lesson 3 finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3 finished." />
+    <MESSAGE value="Section 2 finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 2 finished." />
   </component>
 </project>
