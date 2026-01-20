@@ -1,0 +1,76 @@
+'''
+https://stepik.org/lesson/237240/step/5
+'''
+
+import os
+import time
+import math
+import pytest
+from dotenv import load_dotenv
+from selenium.common import NoSuchElementException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+load_dotenv()
+
+def stepik_answer():
+    return math.log(int(time.time()))
+
+list_of_pages = ['https://stepik.org/lesson/236895/step/1']
+'''
+list_of_pages = ['https://stepik.org/lesson/236895/step/1',
+                'https://stepik.org/lesson/236896/step/1',
+                'https://stepik.org/lesson/236897/step/1',
+                'https://stepik.org/lesson/236898/step/1',
+                'https://stepik.org/lesson/236899/step/1',
+                'https://stepik.org/lesson/236903/step/1',
+                'https://stepik.org/lesson/236904/step/1',
+                'https://stepik.org/lesson/236905/step/1']
+'''
+expected_text = 'Correct!'
+message_words = []
+
+@pytest.mark.parametrize('page_link', list_of_pages)
+def test_stepik_open_different_pages(browser, page_link):
+    browser.get(page_link)
+
+    # Ждем загрузки страницы до появления кнопки авторизации
+    WebDriverWait(browser, 15).until(EC.visibility_of_element_located((By.ID, 'ember499')))
+
+    login_button = browser.find_element(By.ID, 'ember499')
+    login_button.click()
+    time.sleep(0.3)
+    email_input = browser.find_element(By.ID, 'id_login_email')
+    email_input.send_keys(os.getenv('LOGIN'))
+    password_input = browser.find_element(By.ID, 'id_login_password')
+    password_input.send_keys(os.getenv('PASSWORD'))
+    submit_button = browser.find_element(By.CSS_SELECTOR, 'button[type=submit]')
+    submit_button.click()
+
+    time.sleep(5)
+
+    # Если есть кнопка "Решить снова", то нажимаем, иначе ничего не делаем.
+    try:
+        again_button = browser.find_element(By.CSS_SELECTOR, '.again-btn')
+        again_button.click()
+        time.sleep(3)
+    except NoSuchElementException:
+        # Кнопка не найдена - ничего не делаем
+        pass
+
+    answer_input = browser.find_element(By.CSS_SELECTOR, '.textarea')
+    # Без "кликанья" по полю через JavaScript значение никак не хотелось вводиться.
+    browser.execute_script("arguments[0].focus();", answer_input)
+    answer_input.send_keys(str(stepik_answer()))
+
+    answer_button = browser.find_element(By.CSS_SELECTOR, '.submit-submission')
+    answer_button.click()
+    time.sleep(3)
+    result_text_actual = browser.find_element(By.CSS_SELECTOR, '.smart-hints__hint').text
+    try:
+        assert expected_text == result_text_actual, f'Error. Expected \'{expected_text}\', but got \'{result_text_actual}\'.'
+    except AssertionError as e:
+        message_words.append(result_text_actual)
+        raise e
+    time.sleep(3)
+

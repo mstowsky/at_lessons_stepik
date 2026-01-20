@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Added conftest file.&#10;Added gitignore file.&#10;Updated requirements.">
-      <change beforePath="$PROJECT_DIR$/.idea/at_lessons_stepik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/at_lessons_stepik.iml" afterDir="false" />
+    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Added authorization test.">
+      <change afterPath="$PROJECT_DIR$/section3/test_lesson6_step5_parametrization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section3/test_lesson6_step4_stepik_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/section3/test_lesson6_step4_stepik_auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
     "Python tests.Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest.executor": "Run",
     "Python tests.Python tests for section3.test_lesson6_step4_stepik_auth.test_stepik_authorizer.executor": "Run",
     "Python tests.Python tests in test_abs_project.py.executor": "Run",
+    "Python tests.pytest for section3.test_lesson6_step5_parametrization.test_stepik_open_different_pages.executor": "Run",
     "Python.Pr2_step11.executor": "Run",
     "Python.Unic_selector.executor": "Run",
     "Python.lesson1_step5_checkboxes_radiobuttons.executor": "Run",
@@ -101,7 +102,7 @@
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for section3.test_lesson6_step4_stepik_auth.test_stepik_authorizer">
+  <component name="RunManager" selected="Python tests.pytest for section3.test_lesson6_step5_parametrization.test_stepik_open_different_pages">
     <configuration name="Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="at_lessons_stepik" />
       <option name="ENV_FILES" value="" />
@@ -132,8 +133,26 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for section3.test_lesson6_step5_parametrization.test_stepik_open_different_pages" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="at_lessons_stepik" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;section3.test_lesson6_step5_parametrization.test_stepik_open_different_pages&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for section3.test_lesson6_step5_parametrization.test_stepik_open_different_pages" />
         <item itemvalue="Python tests.Python tests for section3.test_lesson6_step4_stepik_auth.test_stepik_authorizer" />
         <item itemvalue="Python tests.Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest" />
       </list>
@@ -242,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768916740308</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added authorization test.">
+      <option name="closed" value="true" />
+      <created>1768918840490</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1768918840490</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +306,7 @@
     <MESSAGE value="Added fixture tests (code is copy-pasted from lessons as-is, it's not mine)." />
     <MESSAGE value="Added some more new fixture tests.&#10;Added new lesson." />
     <MESSAGE value="Added conftest file.&#10;Added gitignore file.&#10;Updated requirements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added conftest file.&#10;Added gitignore file.&#10;Updated requirements." />
+    <MESSAGE value="Added authorization test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added authorization test." />
   </component>
 </project>
