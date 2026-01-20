@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Added requirements.">
-      <change afterPath="$PROJECT_DIR$/section3/test_abs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/test_fixture1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/test_fixture2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/test_fixture3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/test_fixture5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/test_fixture_autouse.py" afterDir="false" />
+    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Added fixture tests (code is copy-pasted from lessons as-is, it's not mine).">
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture10a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture10b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture81.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/test_lesson5_step6_xfail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section3/test_fixture1.py" beforeDir="false" afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section3/test_fixture2.py" beforeDir="false" afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section3/test_fixture3.py" beforeDir="false" afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section3/test_fixture5.py" beforeDir="false" afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section3/test_fixture_autouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/section3/fixtures/test_fixture_autouse.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,41 +62,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest.executor": "Run",
-    "Python tests.Python tests in test_abs_project.py.executor": "Run",
-    "Python.Pr2_step11.executor": "Run",
-    "Python.Unic_selector.executor": "Run",
-    "Python.lesson1_step5_checkboxes_radiobuttons.executor": "Run",
-    "Python.lesson1_step7_treasure_hunt.executor": "Run",
-    "Python.lesson2_step3_selects1.executor": "Run",
-    "Python.lesson2_step6_execute_script.executor": "Run",
-    "Python.lesson2_step8_upload_file.executor": "Run",
-    "Python.lesson3_step4_allert_confirm.executor": "Run",
-    "Python.lesson3_step6_to_new_tab.executor": "Run",
-    "Python.lesson4_step8_wait_for_100_bucks.executor": "Run",
-    "Python.lesson6_step10_fill_registration_form.executor": "Run",
-    "Python.lesson6_step11_failed_test.executor": "Run",
-    "Python.lesson6_step4_selenium_search.executor": "Run",
-    "Python.lesson6_step5_search_link_by_text.executor": "Run",
-    "Python.lesson6_step7_find_elements.executor": "Run",
-    "Python.lesson6_step8_find_by_xpath.executor": "Run",
-    "Python.t_1_6_d.executor": "Run",
-    "Python.test_abs_project.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/flr/PycharmProjects/at_lessons_stepik/section3",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_abs_project.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pr2_step11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Unic_selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson1_step5_checkboxes_radiobuttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson1_step7_treasure_hunt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2_step3_selects1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2_step6_execute_script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2_step8_upload_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson3_step4_allert_confirm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson3_step6_to_new_tab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson4_step8_wait_for_100_bucks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step10_fill_registration_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step11_failed_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step4_selenium_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step5_search_link_by_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step7_find_elements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step8_find_by_xpath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.t_1_6_d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_abs_project.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/flr/PycharmProjects/at_lessons_stepik/section3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section3" />
@@ -99,6 +105,7 @@
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section3\fixtures" />
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik" />
     </key>
   </component>
@@ -203,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768827186093</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added fixture tests (code is copy-pasted from lessons as-is, it's not mine).">
+      <option name="closed" value="true" />
+      <created>1768836575919</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768836575919</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +252,7 @@
     <MESSAGE value="Readme added." />
     <MESSAGE value="Added 'Section 2 lesson 2 step 13' - unittest style tests." />
     <MESSAGE value="Added requirements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added requirements." />
+    <MESSAGE value="Added fixture tests (code is copy-pasted from lessons as-is, it's not mine)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added fixture tests (code is copy-pasted from lessons as-is, it's not mine)." />
   </component>
 </project>
