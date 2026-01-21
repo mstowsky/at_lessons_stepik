@@ -16,7 +16,6 @@ load_dotenv()
 def stepik_answer():
     return math.log(int(time.time()))
 
-# list_of_pages = ['https://stepik.org/lesson/236895/step/1']
 list_of_pages = ['https://stepik.org/lesson/236895/step/1',
                 'https://stepik.org/lesson/236896/step/1',
                 'https://stepik.org/lesson/236897/step/1',
@@ -64,7 +63,7 @@ def test_stepik_open_different_pages(browser, page_link):
         pass
 
     answer_input = browser.find_element(By.CSS_SELECTOR, '.textarea')
-    # Без "кликанья" по полю через JavaScript значение никак не хотелось вводиться.
+    # Без активации поля через JavaScript значение никак не хотелось вводиться.
     browser.execute_script("arguments[0].focus();", answer_input)
     answer_input.send_keys(str(stepik_answer()))
 

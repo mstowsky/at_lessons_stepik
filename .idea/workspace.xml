@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Added parametrization test (now works only for 1st page).">
+    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Now tests work with the full list of sites. Lesson is passed.">
+      <change beforePath="$PROJECT_DIR$/.idea/at_lessons_stepik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/at_lessons_stepik.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section3/test_lesson6_step5_parametrization.py" beforeDir="false" afterPath="$PROJECT_DIR$/section3/test_lesson6_step5_parametrization.py" afterDir="false" />
     </list>
@@ -85,7 +86,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/flr/PycharmProjects/at_lessons_stepik/section3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
@@ -276,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768936739185</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Now tests work with the full list of sites. Lesson is passed.">
+      <option name="closed" value="true" />
+      <created>1769025540190</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1769025540190</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +324,7 @@
     <MESSAGE value="Added conftest file.&#10;Added gitignore file.&#10;Updated requirements." />
     <MESSAGE value="Added authorization test." />
     <MESSAGE value="Added parametrization test (now works only for 1st page)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added parametrization test (now works only for 1st page)." />
+    <MESSAGE value="Now tests work with the full list of sites. Lesson is passed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Now tests work with the full list of sites. Lesson is passed." />
   </component>
 </project>
