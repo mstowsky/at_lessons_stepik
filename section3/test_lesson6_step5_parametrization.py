@@ -16,8 +16,7 @@ load_dotenv()
 def stepik_answer():
     return math.log(int(time.time()))
 
-list_of_pages = ['https://stepik.org/lesson/236895/step/1']
-'''
+# list_of_pages = ['https://stepik.org/lesson/236895/step/1']
 list_of_pages = ['https://stepik.org/lesson/236895/step/1',
                 'https://stepik.org/lesson/236896/step/1',
                 'https://stepik.org/lesson/236897/step/1',
@@ -26,12 +25,19 @@ list_of_pages = ['https://stepik.org/lesson/236895/step/1',
                 'https://stepik.org/lesson/236903/step/1',
                 'https://stepik.org/lesson/236904/step/1',
                 'https://stepik.org/lesson/236905/step/1']
-'''
+
 expected_text = 'Correct!'
 message_words = []
 
+@pytest.fixture(scope="session", autouse=True)
+def print_final_message():
+    """Фикстура, которая выполняется после всех тестов."""
+    yield
+    print(*message_words)
+
 @pytest.mark.parametrize('page_link', list_of_pages)
 def test_stepik_open_different_pages(browser, page_link):
+    print(f'Test for page: {page_link}')
     browser.get(page_link)
 
     # Ждем загрузки страницы до появления кнопки авторизации
@@ -55,7 +61,6 @@ def test_stepik_open_different_pages(browser, page_link):
         again_button.click()
         time.sleep(3)
     except NoSuchElementException:
-        # Кнопка не найдена - ничего не делаем
         pass
 
     answer_input = browser.find_element(By.CSS_SELECTOR, '.textarea')
@@ -70,7 +75,6 @@ def test_stepik_open_different_pages(browser, page_link):
     try:
         assert expected_text == result_text_actual, f'Error. Expected \'{expected_text}\', but got \'{result_text_actual}\'.'
     except AssertionError as e:
+        print(f'Result text is \'{result_text_actual}\'')
         message_words.append(result_text_actual)
         raise e
-    time.sleep(3)
-
