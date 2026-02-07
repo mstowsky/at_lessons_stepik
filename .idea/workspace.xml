@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Some cosmetic changes.&#10;Updated module versions in requirements.txt.">
+    <list default="true" id="8011670a-a832-45bd-b1af-0369afa43096" name="Changes" comment="Refactor done - using only 1 browser window and 1 authorization session for all tests.&#10;Some cosmetic changes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section3/test_lesson6_step5_parametrization.py" beforeDir="false" afterPath="$PROJECT_DIR$/section3/test_lesson6_step5_parametrization.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,45 +55,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest.executor": "Run",
-    "Python tests.Python tests for section3.test_lesson6_step4_stepik_auth.test_stepik_authorizer.executor": "Run",
-    "Python tests.Python tests in test_abs_project.py.executor": "Run",
-    "Python tests.pytest for section3.test_lesson6_step5_parametrization.test_stepik_open_different_pages.executor": "Run",
-    "Python.Pr2_step11.executor": "Run",
-    "Python.Unic_selector.executor": "Run",
-    "Python.lesson1_step5_checkboxes_radiobuttons.executor": "Run",
-    "Python.lesson1_step7_treasure_hunt.executor": "Run",
-    "Python.lesson2_step3_selects1.executor": "Run",
-    "Python.lesson2_step6_execute_script.executor": "Run",
-    "Python.lesson2_step8_upload_file.executor": "Run",
-    "Python.lesson3_step4_allert_confirm.executor": "Run",
-    "Python.lesson3_step6_to_new_tab.executor": "Run",
-    "Python.lesson4_step8_wait_for_100_bucks.executor": "Run",
-    "Python.lesson6_step10_fill_registration_form.executor": "Run",
-    "Python.lesson6_step11_failed_test.executor": "Run",
-    "Python.lesson6_step4_selenium_search.executor": "Run",
-    "Python.lesson6_step5_search_link_by_text.executor": "Run",
-    "Python.lesson6_step7_find_elements.executor": "Run",
-    "Python.lesson6_step8_find_by_xpath.executor": "Run",
-    "Python.t_1_6_d.executor": "Run",
-    "Python.test_abs_project.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/flr/PycharmProjects/at_lessons_stepik/section3",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for section3.test_lesson2_step13_unittest_style.RegistrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for section3.test_lesson6_step4_stepik_auth.test_stepik_authorizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_abs_project.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for section3.test_lesson6_step5_parametrization.test_stepik_open_different_pages.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pr2_step11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Unic_selector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson1_step5_checkboxes_radiobuttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson1_step7_treasure_hunt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2_step3_selects1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2_step6_execute_script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson2_step8_upload_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson3_step4_allert_confirm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson3_step6_to_new_tab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson4_step8_wait_for_100_bucks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step10_fill_registration_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step11_failed_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step4_selenium_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step5_search_link_by_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step7_find_elements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson6_step8_find_by_xpath.executor&quot;: &quot;Run&quot;,
+    &quot;Python.t_1_6_d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_abs_project.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/flr/PycharmProjects/at_lessons_stepik/section3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\flr\PycharmProjects\at_lessons_stepik\section3" />
@@ -270,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769026560034</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Refactor done - using only 1 browser window and 1 authorization session for all tests.&#10;Some cosmetic changes.">
+      <option name="closed" value="true" />
+      <created>1769108453315</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1769108453315</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,6 +317,7 @@
     <MESSAGE value="Added parametrization test (now works only for 1st page)." />
     <MESSAGE value="Now tests work with the full list of sites. Lesson is passed." />
     <MESSAGE value="Some cosmetic changes.&#10;Updated module versions in requirements.txt." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some cosmetic changes.&#10;Updated module versions in requirements.txt." />
+    <MESSAGE value="Refactor done - using only 1 browser window and 1 authorization session for all tests.&#10;Some cosmetic changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor done - using only 1 browser window and 1 authorization session for all tests.&#10;Some cosmetic changes." />
   </component>
 </project>
